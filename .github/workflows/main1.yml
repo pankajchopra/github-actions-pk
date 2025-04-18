@@ -6,4 +6,4 @@ jobs:
     steps: 
       - name: checkout
         uses: actions/checkout@v4.2.2
-      - run: echo "${cat hello_world.txt}
+      - run: echo "$(cat hello_world.txt)"
